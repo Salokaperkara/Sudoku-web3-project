@@ -1,0 +1,24 @@
+{
+  "name": "sudoku-web3-project",
+  "version": "1.0.0",
+  "description": "A decentralized Sudoku game powered by Ethereum smart contracts.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.13",
+    "hardhat": "^3.9.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.4.2"
+  },
+  "type": "module"
+}
